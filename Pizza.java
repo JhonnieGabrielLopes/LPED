@@ -46,6 +46,7 @@ public class Pizza {
                     System.out.println("Código não encontrado, tente novamente!");
                     break;
             }
+            
             System.out.println("");
             System.out.println("================================================================");
             System.out.println("Para ver o sabor, digite novamente o código da pizza. \nPara fazer o pedido, digite 0.");
