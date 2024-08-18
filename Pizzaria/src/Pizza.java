@@ -1,3 +1,5 @@
+package Pizzaria.src;
+
 import java.util.Scanner;
 
 public class Pizza {

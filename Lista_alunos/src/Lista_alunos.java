@@ -1,3 +1,4 @@
+package Lista_alunos.src;
 
 //criar uma aplicação para armazenar o nome do aluno e sua respectiva nota
 
@@ -6,7 +7,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 
-public class Listaalunos {
+public class Lista_alunos {
 
     public void inserealuno(ArrayList<String> aluno, Scanner in, String alunos, ArrayList<Float> nota, float notas){//adiciona alunos
         do{
@@ -71,7 +72,7 @@ public class Listaalunos {
         System.out.println("A media das notas de todos os alunos juntos é: "+notas);
     }
     public static void main(String[] args) {
-        Listaalunos metodo=new Listaalunos();
+        Lista_alunos metodo=new Lista_alunos();
         ArrayList<String> aluno=new ArrayList<>();
         ArrayList<Float> nota=new ArrayList<>();
         Iterator<String> iteraluno = aluno.iterator();

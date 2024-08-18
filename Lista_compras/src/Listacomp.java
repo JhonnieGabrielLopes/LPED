@@ -1,3 +1,5 @@
+package Lista_compras.src;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
