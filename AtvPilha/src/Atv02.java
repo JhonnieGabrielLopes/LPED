@@ -7,10 +7,16 @@ import java.util.Stack;
 public class Atv02{
 
     public void acessalink(Stack<String> pilha, ArrayList<String> historico, String link, Scanner in){
-        System.out.print("Informe a URL do site que deseja acessar: \n > URL: ");
+        System.out.println("Informe a URL do site que deseja acessar:");
+        do{
+        System.out.print(" > URL: ");
         link=in.nextLine();
+        if (link.trim().isEmpty()) {
+            System.out.println("Informe um link válido!");
+        }else{
         pilha.push(link);
-        historico.add(link);
+        historico.add(link);}
+        }while(link.trim().isEmpty());
     }
     public void retornalink(Stack<String> pilha, String link, ArrayList<String> historico){
         if (pilha.isEmpty()) {
