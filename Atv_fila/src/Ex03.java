@@ -48,7 +48,7 @@ public class Ex03 {
                     do{
                         System.out.print(" > ");
                         entrada=in.nextLine();
-                        if (entrada.equalsIgnoreCase("fim")) {
+                        if (entrada.equalsIgnoreCase("fim")) { 
                             break;
                         }else {
                                 try{
